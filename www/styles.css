@@ -1,0 +1,46 @@
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ff00ff;
+  text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #ff00ff, 0 0 70px #ff00ff, 0 0 80px #ff00ff;
+}
+
+p {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.container-fluid {
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 20px 5px rgba(255, 0, 255, 0.5);
+}
+
+hr {
+  border-top: 2px solid #ff00ff;
+}
+
+select, .checkbox, .checkbox-inline {
+  color: white;
+}
+
+select:focus, .checkbox input[type="checkbox"]:focus {
+  border-color: #ff00ff;
+  box-shadow: 0px 0px 5px #ff00ff;
+}
+
+#cocktail_list {
+  background-color: #282828;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 20px 5px rgba(255, 0, 255, 0.5);
+}
+
+form.well {
+  background-color: black;
+}

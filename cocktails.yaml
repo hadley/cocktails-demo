@@ -1,0 +1,391 @@
+- name: Negroni
+  description: >
+    It's known for its balanced, bitter-sweet flavour profile, making it a staple in the world of aperitifs.
+  primary-spirit: Gin
+  construction: stirred
+  ingredients:
+    - [1, oz, gin]
+    - [1, oz, sweet vermouth]
+    - [1, oz, Campari]
+  flavour: [bitter, spirit forward]
+
+- name: Martini
+  description: >
+    The martini is a symbol of sophistication with a dry, clean flavour.
+  primary-spirit: Gin
+  construction: stirred
+  ingredients:
+    - [2.5, oz, gin]
+    - [0.5, oz, dry vermouth]
+  garnish: lemon twist
+  flavour: [dry, spirit forward]
+
+- name: Daiquiri
+  description: >
+    The Daiquiri is a simple yet elegant cocktail that balances the sweetness of rum with the tartness of lime.
+  primary-spirit: Rum
+  construction: shaken
+  ingredients:
+    - [2, oz, white rum]
+    - [1, oz, lime juice]
+    - [0.75, oz, simple syrup]
+  flavour: [citrusy, refreshing]
+
+- name: Old Fashioned
+  description: >
+    A timeless classic that highlights the robust flavour of whiskey with a hint of sweetness and bitterness.
+  primary-spirit: Whiskey
+  construction: stirred
+  ingredients:
+    - [2, oz, bourbon or rye whiskey]
+    - [1, sugar cube]
+    - [2, dashes, Angostura bitters]
+    - [1, tsp, water]
+  garnish: orange twist
+  flavour: [spirit forward, bitter, rich]
+
+- name: Margarita
+  description: >
+    A refreshing cocktail that blends the boldness of tequila with the bright flavours of lime and orange.
+  primary-spirit: Tequila
+  construction: shaken
+  ingredients:
+    - [2, oz, tequila]
+    - [1, oz, lime juice]
+    - [0.5, oz, triple sec]
+  garnish: salt rim, lime wheel
+  flavour: [citrusy, refreshing]
+
+- name: Manhattan
+  description: >
+    A sophisticated, smooth cocktail with a rich, sweet flavour balanced by the bitterness of vermouth and bitters.
+  primary-spirit: Whiskey
+  construction: stirred
+  ingredients:
+    - [2, oz, rye whiskey]
+    - [1, oz, sweet vermouth]
+    - [2, dashes, Angostura bitters]
+  garnish: cherry
+  flavour: [spirit forward, bitter, rich]
+
+- name: Mojito
+  description: >
+    A light and refreshing cocktail with a mix of rum, lime, and mint, perfect for warm weather.
+  primary-spirit: Rum
+  construction: shaken
+  ingredients:
+    - [2, oz, white rum]
+    - [1, oz, lime juice]
+    - [0.75, oz, simple syrup]
+    - [8, mint leaves]
+    - [club soda, to top]
+  garnish: mint sprig
+  flavour: [citrusy, refreshing, herbal]
+
+- name: Whiskey Sour
+  description: >
+    A perfect balance of whiskey, lemon, and sweetness with a smooth, frothy texture.
+  primary-spirit: Whiskey
+  construction: shaken
+  ingredients:
+    - [2, oz, bourbon]
+    - [0.75, oz, lemon juice]
+    - [0.5, oz, simple syrup]
+    - [0.5, oz, egg white, optional]
+  garnish: cherry
+  flavour: [citrusy, rich, spirit forward]
+
+- name: Pisco Sour
+  description: >
+    A South American classic with a frothy texture and a bright, citrusy flavour.
+  primary-spirit: Pisco
+  construction: shaken
+  ingredients:
+    - [2, oz, pisco]
+    - [1, oz, lime juice]
+    - [0.75, oz, simple syrup]
+    - [1, egg white]
+  garnish: Angostura bitters
+  flavour: [citrusy, refreshing, creamy]
+
+- name: Cosmopolitan
+  description: >
+    A modern classic with a vibrant pink hue and a tart, fruity flavour.
+  primary-spirit: Vodka
+  construction: shaken
+  ingredients:
+    - [1.5, oz, vodka]
+    - [1, oz, cranberry juice]
+    - [0.5, oz, lime juice]
+    - [0.5, oz, triple sec]
+  garnish: lime wheel
+  flavour: [fruity, citrusy, refreshing]
+
+- name: Gimlet
+  description: >
+    A simple, crisp cocktail that highlights the botanical notes of gin with a touch of sweetness.
+  primary-spirit: Gin
+  construction: shaken
+  ingredients:
+    - [2, oz, gin]
+    - [0.75, oz, lime juice]
+    - [0.75, oz, simple syrup]
+  garnish: lime wheel
+  flavour: [citrusy, refreshing]
+
+- name: Tom Collins
+  description: >
+    A light and bubbly cocktail with a refreshing citrus flavour, perfect for a sunny day.
+  primary-spirit: Gin
+  construction: shaken
+  ingredients:
+    - [2, oz, gin]
+    - [1, oz, lemon juice]
+    - [0.75, oz, simple syrup]
+    - [club soda, to top]
+  garnish: lemon wheel
+  flavour: [citrusy, refreshing]
+
+- name: Sidecar
+  description: >
+    A refined cocktail with a tart, citrusy flavour and a hint of sweetness from cognac.
+  primary-spirit: Cognac
+  construction: shaken
+  ingredients:
+    - [2, oz, cognac]
+    - [0.75, oz, triple sec]
+    - [0.75, oz, lemon juice]
+  garnish: sugar rim, lemon twist
+  flavour: [citrusy, spirit forward]
+
+- name: Moscow Mule
+  description: >
+    A spicy and refreshing cocktail served in a copper mug, combining vodka, ginger beer, and lime.
+  primary-spirit: Vodka
+  construction: built
+  ingredients:
+    - [2, oz, vodka]
+    - [0.5, oz, lime juice]
+    - [ginger beer, to top]
+  garnish: lime wheel
+  flavour: [spicy, refreshing]
+
+- name: French 75
+  description: >
+    A sparkling cocktail with a lively blend of gin, lemon, and champagne.
+  primary-spirit: Gin
+  construction: shaken
+  ingredients:
+    - [1, oz, gin]
+    - [0.5, oz, lemon juice]
+    - [0.5, oz, simple syrup]
+    - [champagne, to top]
+  garnish: lemon twist
+  flavour: [citrusy, refreshing]
+
+- name: Sazerac
+  description: >
+    A potent New Orleans classic with a bold, spirit-forward flavour and a hint of anise.
+  primary-spirit: Rye Whiskey
+  construction: stirred
+  ingredients:
+    - [2, oz, rye whiskey]
+    - [1, sugar cube]
+    - [3, dashes, Peychaud's bitters]
+    - [absinthe, to rinse]
+  garnish: lemon twist
+  flavour: [spirit forward, bitter]
+
+- name: Mai Tai
+  description: >
+    A tropical rum cocktail with layers of citrus and almond flavours, embodying the spirit of the Tiki era.
+  primary-spirit: Rum
+  construction: shaken
+  ingredients:
+    - [1.5, oz, white rum]
+    - [0.5, oz, dark rum]
+    - [0.75, oz, lime juice]
+    - [0.5, oz, orange curaçao]
+    - [0.25, oz, orgeat syrup]
+  garnish: mint sprig, lime wheel
+  flavour: [fruity, refreshing]
+
+- name: Bloody Mary
+  description: >
+    A savoury and spicy brunch staple that combines vodka with tomato juice and various seasonings.
+  primary-spirit: Vodka
+  construction: built
+  ingredients:
+    - [2, oz, vodka]
+    - [4, oz, tomato juice]
+    - [0.5, oz, lemon juice]
+    - [2, dashes, Worcestershire sauce]
+    - [2, dashes, hot sauce]
+    - [pinch, salt and pepper]
+  garnish: celery stalk, lemon wedge
+  flavour: [savory, spicy]
+
+- name: Aperol Spritz
+  description: >
+    A light and refreshing Italian aperitif with a balanced bitterness from Aperol and effervescence from Prosecco.
+  primary-spirit: Aperol
+  construction: built
+  ingredients:
+    - [2, oz, Aperol]
+    - [3, oz, Prosecco]
+    - [1, oz, club soda]
+  garnish: orange slice
+  flavour: [bitter, refreshing]
+
+- name: Pimm's Cup
+  description: >
+    A quintessential British summer drink with a refreshing mix of Pimm's, citrus, and herbs.
+  primary-spirit: Pimm's No. 1
+  construction: built
+  ingredients:
+    - [2, oz, Pimm's No. 1]
+    - [lemonade, to top]
+    - [cucumber, mint, fruit, to garnish]
+  garnish: cucumber, mint sprig
+  flavour: [herbal, fruity, refreshing]
+
+- name: Dark 'n' Stormy
+  description: >
+    A spicy and bold cocktail that pairs dark rum with ginger beer for a stormy finish.
+  primary-spirit: Dark Rum
+  construction: built
+  ingredients:
+    - [2, oz, dark rum]
+    - [ginger beer, to top]
+    - [0.5, oz, lime juice]
+  garnish: lime wedge
+  flavour: [spicy, refreshing]
+
+- name: Caipirinha
+  description: >
+    Brazil's national cocktail, made with cachaça, sugar, and lime, offering a sweet and tart flavour.
+  primary-spirit: Cachaça
+  construction: built
+  ingredients:
+    - [2, oz, cachaça]
+    - [1, lime, cut into wedges]
+    - [2, tsp, sugar]
+  garnish: lime wedge
+  flavour: [citrusy, refreshing]
+
+- name: Espresso Martini
+  description: >
+    A modern classic with a rich, creamy texture and the bold flavour of coffee.
+  primary-spirit: Vodka
+  construction: shaken
+  ingredients:
+    - [1.5, oz, vodka]
+    - [1, oz, espresso]
+    - [0.5, oz, coffee liqueur]
+    - [0.25, oz, simple syrup]
+  garnish: coffee beans
+  flavour: [rich, creamy, spirit forward]
+
+- name: Vesper
+  description: >
+    A sophisticated blend of gin, vodka, and Lillet, popularised by James Bond, with a strong and clean flavour.
+  primary-spirit: Gin
+  construction: shaken
+  ingredients:
+    - [1.5, oz, gin]
+    - [0.75, oz, vodka]
+    - [0.5, oz, Lillet Blanc]
+  garnish: lemon twist
+  flavour: [spirit forward, dry]
+
+- name: Clover Club
+  description: >
+    A pre-prohibition classic with a fruity and creamy profile, made with gin, lemon, raspberry syrup, and egg white.
+  primary-spirit: Gin
+  construction: shaken
+  ingredients:
+    - [2, oz, gin]
+    - [0.75, oz, lemon juice]
+    - [0.5, oz, raspberry syrup]
+    - [0.5, oz, egg white]
+  garnish: raspberry
+  flavour: [fruity, creamy]
+
+- name: Boulevardier
+  description: >
+    A rich and bitter cocktail similar to a Negroni but with whiskey instead of gin, offering a warmer, deeper flavour.
+  primary-spirit: Bourbon
+  construction: stirred
+  ingredients:
+    - [1.5, oz, bourbon]
+    - [1, oz, sweet vermouth]
+    - [1, oz, Campari]
+  garnish: orange twist
+  flavour: [bitter, spirit forward, rich]
+
+- name: Amaretto Sour
+  description: >
+    A sweet and tangy cocktail that blends the nutty flavour of amaretto with the tartness of lemon juice.
+  primary-spirit: Amaretto
+  construction: shaken
+  ingredients:
+    - [1.5, oz, amaretto]
+    - [0.75, oz, lemon juice]
+    - [0.5, oz, simple syrup]
+  garnish: cherry
+  flavour: [nutty, citrusy, refreshing]
+
+- name: Ramos Gin Fizz
+  description: >
+    A frothy, creamy cocktail with a complex blend of citrus, floral, and creamy flavours, known for its elaborate preparation.
+  primary-spirit: Gin
+  construction: shaken
+  ingredients:
+    - [2, oz, gin]
+    - [0.5, oz, lemon juice]
+    - [0.5, oz, lime juice]
+    - [1, oz, simple syrup]
+    - [1, oz, heavy cream]
+    - [1, egg white]
+    - [2, dashes, orange flower water]
+    - [club soda, to top]
+  garnish: none
+  flavour: [creamy, floral, citrusy]
+
+- name: Penicillin
+  description: >
+    A modern whisky cocktail with a smoky, spicy flavour, combining scotch, honey, lemon, and ginger.
+  primary-spirit: Scotch
+  construction: shaken
+  ingredients:
+    - [2, oz, blended scotch]
+    - [0.75, oz, lemon juice]
+    - [0.75, oz, honey-ginger syrup]
+    - [0.25, oz, Islay scotch, float]
+  garnish: candied ginger
+  flavour: [smoky, spicy, spirit forward]
+
+- name: Aviation
+  description: >
+    A classic gin cocktail with a floral and slightly fruity profile, made with maraschino liqueur and crème de violette.
+  primary-spirit: Gin
+  construction: shaken
+  ingredients:
+    - [2, oz, gin]
+    - [0.5, oz, maraschino liqueur]
+    - [0.25, oz, crème de violette]
+    - [0.75, oz, lemon juice]
+  garnish: cherry
+  flavour: [floral, fruity, refreshing]
+
+- name: Paloma
+  description: >
+    A refreshing Mexican cocktail that pairs tequila with grapefruit soda for a sweet and tangy taste.
+  primary-spirit: Tequila
+  construction: built
+  ingredients:
+    - [2, oz, tequila]
+    - [grapefruit soda, to top]
+    - [0.5, oz, lime juice]
+  garnish: lime wheel
+  flavour: [citrusy, refreshing]
