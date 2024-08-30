@@ -10,11 +10,17 @@ ui <- fluidPage(
   titlePanel("Cocktail Selector"),
   sidebarLayout(
     sidebarPanel(
-      selectInput("primary_spirit", "Primary Spirit:",
-                  choices = c("All", unique(sapply(cocktails, function(x) x$`primary-spirit`))),
-                  selected = "All"),
-      checkboxGroupInput("flavour_profile", "Flavour Profile:",
-                         choices = unique(unlist(sapply(cocktails, function(x) x$flavour))))
+      selectInput(
+        "primary_spirit",
+        "Primary Spirit:",
+        choices = c("All", unique(sapply(cocktails, function(x) x$`primary-spirit`))),
+        selected = "All"
+      ),
+      checkboxGroupInput(
+        "flavour_profile",
+        "Flavour Profile:",
+        choices = unique(unlist(sapply(cocktails, function(x) x$flavour)))
+      )
     ),
     mainPanel(
       uiOutput("cocktail_list")
