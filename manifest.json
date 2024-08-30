@@ -796,6 +796,44 @@
         "RemoteSha": "1.3.0"
       }
     },
+    "purrr": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "purrr",
+        "Title": "Functional Programming Tools",
+        "Version": "1.0.2",
+        "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", role = c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0003-4757-117X\")),\n    person(\"Lionel\", \"Henry\", , \"lionel@rstudio.com\", role = \"aut\"),\n    person(\"RStudio\", role = c(\"cph\", \"fnd\"))\n  )",
+        "Description": "A complete and consistent functional programming toolkit for\n    R.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://purrr.tidyverse.org/, https://github.com/tidyverse/purrr",
+        "BugReports": "https://github.com/tidyverse/purrr/issues",
+        "Depends": "R (>= 3.5.0)",
+        "Imports": "cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0),\nrlang (>= 1.1.1), vctrs (>= 0.6.3)",
+        "Suggests": "covr, dplyr (>= 0.7.8), httr, knitr, lubridate, rmarkdown,\ntestthat (>= 3.0.0), tibble, tidyselect",
+        "LinkingTo": "cli",
+        "VignetteBuilder": "knitr",
+        "Biarch": "true",
+        "Config/Needs/website": "tidyverse/tidytemplate, tidyr",
+        "Config/testthat/edition": "3",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.2.3",
+        "NeedsCompilation": "yes",
+        "Packaged": "2023-08-08 16:13:31 UTC; hadleywickham",
+        "Author": "Hadley Wickham [aut, cre] (<https://orcid.org/0000-0003-4757-117X>),\n  Lionel Henry [aut],\n  RStudio [cph, fnd]",
+        "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2023-08-10 08:20:07 UTC",
+        "Built": "R 4.4.0; aarch64-apple-darwin20; 2024-04-06 06:42:18 UTC; unix",
+        "Archs": "purrr.so.dSYM",
+        "RemoteType": "standard",
+        "RemotePkgRef": "purrr",
+        "RemoteRef": "purrr",
+        "RemoteRepos": "https://cran.rstudio.com",
+        "RemotePkgPlatform": "aarch64-apple-darwin20",
+        "RemoteSha": "1.0.2"
+      }
+    },
     "rappdirs": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -972,6 +1010,43 @@
         "RemoteSha": "0.1.7-1"
       }
     },
+    "vctrs": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "vctrs",
+        "Title": "Vector Helpers",
+        "Version": "0.6.5",
+        "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = \"aut\"),\n    person(\"Lionel\", \"Henry\", , \"lionel@posit.co\", role = \"aut\"),\n    person(\"Davis\", \"Vaughan\", , \"davis@posit.co\", role = c(\"aut\", \"cre\")),\n    person(\"data.table team\", role = \"cph\",\n           comment = \"Radix sort based on data.table's forder() and their contribution to R's order()\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
+        "Description": "Defines new notions of prototype and size that are used to\n    provide tools for consistent and well-founded type-coercion and\n    size-recycling, and are in turn connected to ideas of type- and\n    size-stability useful for analysing function interfaces.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://vctrs.r-lib.org/, https://github.com/r-lib/vctrs",
+        "BugReports": "https://github.com/r-lib/vctrs/issues",
+        "Depends": "R (>= 3.5.0)",
+        "Imports": "cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.0)",
+        "Suggests": "bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr,\npillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>=\n3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2,\nzeallot",
+        "VignetteBuilder": "knitr",
+        "Config/Needs/website": "tidyverse/tidytemplate",
+        "Config/testthat/edition": "3",
+        "Encoding": "UTF-8",
+        "Language": "en-GB",
+        "RoxygenNote": "7.2.3",
+        "NeedsCompilation": "yes",
+        "Packaged": "2023-12-01 16:27:12 UTC; davis",
+        "Author": "Hadley Wickham [aut],\n  Lionel Henry [aut],\n  Davis Vaughan [aut, cre],\n  data.table team [cph] (Radix sort based on data.table's forder() and\n    their contribution to R's order()),\n  Posit Software, PBC [cph, fnd]",
+        "Maintainer": "Davis Vaughan <davis@posit.co>",
+        "Repository": "CRAN",
+        "Date/Publication": "2023-12-01 23:50:02 UTC",
+        "Built": "R 4.4.0; aarch64-apple-darwin20; 2024-04-06 02:48:37 UTC; unix",
+        "Archs": "vctrs.so.dSYM",
+        "RemoteType": "standard",
+        "RemotePkgRef": "vctrs",
+        "RemoteRef": "vctrs",
+        "RemoteRepos": "https://cran.rstudio.com",
+        "RemotePkgPlatform": "aarch64-apple-darwin20",
+        "RemoteSha": "0.6.5"
+      }
+    },
     "withr": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -1072,10 +1147,13 @@
   },
   "files": {
     "app.R": {
-      "checksum": "9ef8132a48ec3685b9454ad4b7e7fccd"
+      "checksum": "a450cfe3bd1bc3cf9b2c9af6793a7ed7"
     },
     "cocktails.yaml": {
       "checksum": "e3e0df84845f06ad9de1ca280b57317c"
+    },
+    "README.md": {
+      "checksum": "a83b02797029b790377bd2dfbed8089c"
     },
     "www/styles.css": {
       "checksum": "9817aad420854d1f03801622e87d87f9"
