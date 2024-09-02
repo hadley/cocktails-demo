@@ -389,3 +389,17 @@
     - [0.5, oz, lime juice]
   garnish: lime wheel
   flavour: [citrusy, refreshing]
+
+- name: A Sacriledge and a Folly
+  description: >
+    A smoky twist on the classic Aperol Spritz, this cocktail combines the bright, citrusy notes of Aperol with the rich, smoky flavor of mezcal.
+  primary-spirit: Mezcal
+  construction: built
+  ingredients:
+    - [1.5, oz, mezcal]
+    - [1, oz, Aperol]
+    - [0.5, oz, fresh lime juice]
+    - [2, oz, soda water]
+    - [3, oz, prosecco]
+  garnish: grapefruit slice
+  flavour: [smoky, citrusy, refreshing]
